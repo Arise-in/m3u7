@@ -1,0 +1,16 @@
+{
+	"name": "m3u7",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vites"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.8.36",
+		"vitest": "^3.2.1",
+		"wrangler": "^4.19.1"
+	}
+}
